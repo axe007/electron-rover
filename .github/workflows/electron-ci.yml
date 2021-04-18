@@ -16,10 +16,11 @@ jobs:
     defaults:
       run:
         working-directory: src
+        
 
     steps:
-      - name: Fix git checkout line endings
-        run: git config --global core.autocrlf input
+      - name: Git line ending fix
+        run: git config --global core.autocrlf false
       - uses: actions/checkout@v2
       - name: Setup Node.js
         uses: actions/setup-node@v1
