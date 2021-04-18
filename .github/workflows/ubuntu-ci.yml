@@ -24,8 +24,4 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
-    - run: |
-        RUNNER_ALLOW_RUNASROOT="1"
-        npm run test
-        env:
-          CI: true
+    - run: npm run test
