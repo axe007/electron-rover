@@ -13,8 +13,6 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      options: --user 1001
     strategy:
       matrix:
         node-version: [12.x, 14.x, 15.x]
@@ -27,6 +25,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: |
+        RUNNER_ALLOW_RUNASROOT="1"
         npm run test
         env:
           CI: true
