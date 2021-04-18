@@ -26,7 +26,6 @@ jobs:
     - run: npm ci
     - run: |
         RUNNER_ALLOW_RUNASROOT="1"
-        sudo apt-get install DevToolsActivePort
         npm run test
         env:
           CI: true
