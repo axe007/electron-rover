@@ -20,17 +20,28 @@ describe('Electron app tests', function () {
 	//Stop the electron app after completion of each test
 	afterEach(() => {
 		if (app && app.isRunning()) {
+			done();
 			return app.stop();
 		}
 	});
 
-	it('Display the electron app window', async () => {
-		const count = await app.client.getWindowCount();
-		return assert.equal(count, 1);
-	});
+	try {
+		it('Display the electron app window', async () => {
+			const count = await app.client.getWindowCount();
+			return assert.equal(count, 1);
+			done();
+		}).timeout(10000);
+	} catch (e) {
+		return done(e);
+	}
 
-	it('Displays a title', async () => {
-		const title = await app.browserWindow.getTitle();
-		return assert.equal(title, 'SmartRover - Home');
-	});
+	try {
+		it('Displays a title', async () => {
+			const title = await app.browserWindow.getTitle();
+			return assert.equal(title, 'SmartRover - Home');
+		done();
+		}).timeout(10000); 
+	} catch (e) {
+		return done(e);
+	}
 });
