@@ -24,7 +24,13 @@ describe("Application launch test", function () {
 				NODE_ENV: "development",
 				PORT: 9515
 			},
-			chromeDriverArgs: ['--headless','--no-sandbox','--disable-dev-shm-usage'],
+			chromeDriverArgs: ["--headless","--no-sandbox",
+					   "--disable-dev-shm-usage",
+					   "start-maximized",
+					   "disable-infobars",
+					   "--disable-extensions",
+					   "--disable-gpu"
+					  ],
 			startTimeout: 20000,
 			chromeDriverLogPath: '../chromedriverlog.txt'
   		});
