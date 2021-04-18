@@ -12,10 +12,11 @@ defaults:
 
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
+    runs-on: [ubuntu-latest]
+    container:
+      options: --user 1001
     strategy:
       matrix:
-        os: [ubuntu-latest]
         node-version: [12.x, 14.x, 15.x]
   
     steps:
@@ -29,5 +30,3 @@ jobs:
         npm run test
         env:
           CI: true
-      
-          
