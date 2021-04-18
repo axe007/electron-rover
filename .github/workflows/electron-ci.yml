@@ -6,6 +6,10 @@ on:
       - main
   pull_request:
 
+defaults:
+  run:
+    working-directory: frontendApp
+
 jobs:
   build:
     runs-on: ${{ matrix.os }}
@@ -32,7 +36,6 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      - name: Install
-        run: npm install
-      - name: Test
-        run: npm run test
+      - run: npm ci
+      - run: npm run build --if-present
+      - run: npm run test
