@@ -61,7 +61,7 @@ If people like your project they’ll want to learn how they can use it. To do s
 - [Kamila Yosofi](https://github.com/kam56)
 - [Markus Juntura](https://github.com/OneMoreOreo)
 
-##Contributing
+## Contributing
 
 If you wish to contribute to this website, please fork it on GitHub, push your change to a named branch, then send a pull request. If it is a big feature, you might want to start an issue first to make sure it's something that will be accepted. If it involves code, please also write tests for it.
 
