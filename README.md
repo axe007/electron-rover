@@ -29,12 +29,29 @@ The system is developed such that it can perfrom the following tasks:
 - Drive and steer manually 
 - Execute predefined missions tasks 
 
+## Installation
+
+Provide step by step series of examples and explanations about how to get a development env running.
+
+## Testing
+
+To run the tests for this project, run:
+
+    $ npm ci
+
+To run the website for testing purposes, run:
+
+    $ npm run test
+
+## How to use
+
+If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
 
 ## Dependencies
 
-- [arduino](https://www.arduino.cc/en/software)
-- [smce-gd](https://github.com/ItJustWorksTM/smce-gd)
-- [Elecron.js](https://www.electronjs.org/)
+- [Arduino IDE](https://www.arduino.cc/en/software)
+- [SMCE-gd](https://github.com/ItJustWorksTM/smce-gd)
+- [Elecrton.js](https://www.electronjs.org/)
 
 
 ## Development team:
@@ -44,10 +61,13 @@ The system is developed such that it can perfrom the following tasks:
 - [Kamila Yosofi](https://github.com/kam56)
 - [Markus Juntura](https://github.com/OneMoreOreo)
 
+##Contributing
 
+If you wish to contribute to this website, please fork it on GitHub, push your change to a named branch, then send a pull request. If it is a big feature, you might want to start an issue first to make sure it's something that will be accepted. If it involves code, please also write tests for it.
 
+## License
 
-### License
-MIT
+MIT © Group-09
+The source code for the site is licensed under the MIT license, which you can find in the MIT-LICENSE.txt file.
 
-
+All graphical assets are licensed under the [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/).
