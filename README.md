@@ -3,7 +3,7 @@
 ![Electron CI](https://github.com/DIT112-V21/group-09/actions/workflows/electron-ci.yml/badge.svg)
 ![Arduino Build](https://github.com/DIT112-V21/group-09/actions/workflows/arduino-build.yml/badge.svg)
 
-Electron app ci testing 2
+
 
 
 Autonomous SmartRover that is designed to explore foreign planets, terrain and its environment
@@ -15,10 +15,10 @@ Autonomous SmartRover that is designed to explore foreign planets, terrain and i
 - [License](#license)
 
 ## Description
-.
-.
-.
-. 
+
+In this repository you can find all the neccessary information to setup and use SmartRover system. By Fully 
+utilizing SmartCar software library capabilities, this system is designed to explore the idea of examining more
+territory in the foreign terrain and perform remote robotic vehicle control. 
 
 
 ## Features
