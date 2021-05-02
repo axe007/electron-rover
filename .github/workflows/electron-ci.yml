@@ -26,5 +26,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: |
         npm ci
+        npm install --global yarn
         yarn add electron-builder
     - run: npm run test
