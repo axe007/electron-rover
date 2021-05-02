@@ -1,17 +1,16 @@
 /* Content typography */
 
 .page-title h1 {
-	color: #fff;
+	color: #fff; /*#ffb400*/
 	font-family: 'Lato', sans-serif;
-	font-size: 54px;
-	font-weight: 400;
-	line-height: 58px;
-	margin: 30px 0 30px 0;
+	font-size: 60px;
+	font-weight: 300;
+	line-height: 40px;
 }
 
 .page-title p {
-	color: #fff;
-	font-family: 'Lucida Sans', Arial, sans-serif;
+	color: #ffb400;
+	font-family: 'Lato', 'Open Sans', Arial, sans-serif;
 	font-size: 16px;
 	line-height: 26px;
 	margin: 0;
@@ -28,6 +27,76 @@
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	font-size: 11pt;
 	font-weight: 500;
+}
+
+/* Homepage fonts, color and styles */
+
+.rover-intro {
+	color: #fff;
+	font-weight: 700;
+	font-size: 20pt;
+}
+
+h3.popover-header {
+	text-transform: uppercase;
+	font-family: 'Lato', 'Open Sans', sans-serif;
+	font-size: 12pt;
+	font-weight: 750;
+	text-shadow: 2px 0 5px #ffffff;
+}
+
+.popover-body {
+	font-family: 'Lato', 'Open Sans', sans-serif;
+	font-size: 1rem;
+	font-weight: 500;
+	color: white;
+	text-align: justify;
+	text-shadow: 1px 1px 2px #000;
+}
+
+.popover-body .highlight {
+	color: #FFAE00;
+	text-shadow: 1px 1px 2px #000;
+}
+
+div[class^="intro-tooltip"] {
+  	color:#fff;
+  	text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+  	text-align:center;
+}
+
+div[class^="intro-tooltip"]:hover {
+	color: #491100;
+	box-shadow:
+		inset 0 0 50px #fff,      /* inner white */
+		inset 20px 0 80px #ff9600,   /* inner left magenta short */
+		inset -20px 0 80px #fcff00,  /* inner right cyan short */
+		inset 20px 0 300px #ff9600,  /* inner left magenta broad */
+		inset -20px 0 300px #fcff00, /* inner right cyan broad */
+		0 0 50px #fff,            /* outer white */
+		-10px 0 80px #ff9600,        /* outer left magenta */
+		10px 0 80px #fcff00;         /* outer right cyan */
+}
+
+/* Manual control typography */
+.dashboard div[class^="label"], .dashboard div[class^="data"] {
+    color: #1b1b3d; 
+	font-family: 'Roboto', 'Lato', Segoe, 'Segoe UI', 'sans-serif';
+	font-weight: 700;
+	font-size: 16pt;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.dashboard div[class^="data"] {
+	padding-top: 4px;
+	padding-left: 15px;
+	font-size: 22pt;
+}
+
+.dashboard div[class^="label"] .label-supplement {
+	font-size: 12pt;
+	font-weight: 400;
 }
 
 /* Font definitions used */

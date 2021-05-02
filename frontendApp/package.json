@@ -1,28 +1,36 @@
 {
 	"name": "SmartRover",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"author": "Group 9",
 	"description": "Your gateway to take control of the SmartRover to explore Mars",
-	"keywords": [],
-	"license": "ISC",
+	"license": "MIT",
 	"homepage": "https://github.com/DIT112-V21/group-09#readme",
+	"repository": "https://github.com/DIT112-V21/group-09",
 	"main": "main.js",
 	"scripts": {
 		"test": "mocha",
 		"lint": "eslint .",
+		"pack": "electron-builder --dir",
+		"dist": "electron-builder",
 		"start": "electron ."
+  	},
+	"build": {
+		"appId": "group9.smartrover",
+		"mac": {
+			"category": "com.group9.smartrover.app"
+		}
 	},
 	"devDependencies": {
-		"chai": "^4.3.4",
-		"chai-as-promised": "^7.1.1",
-		"electron-chromedriver": "^12.0.0",
 		"eslint": "^7.24.0",
 		"mocha": "^8.3.2",
+		"chai": "^4.3.4",
+		"chai-as-promised": "^7.1.1",
 		"spectron": "^14.0.0"
-	},
+  	},
 	"dependencies": {
+		"electron": "^12.0.6",
 		"@fortawesome/fontawesome-free": "^5.15.3",
-		"electron": "^12.0.4",
+		"electron-chromedriver": "^12.0.0",
 		"mqtt": "^4.2.6"
 	}
 }
