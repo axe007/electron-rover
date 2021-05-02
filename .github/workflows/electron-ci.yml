@@ -24,5 +24,7 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm ci
+    - run: |
+        npm ci
+        yarn add electron-builder
     - run: npm run test
