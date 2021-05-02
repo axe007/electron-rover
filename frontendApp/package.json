@@ -13,24 +13,28 @@
 		"pack": "electron-builder --dir",
 		"dist": "electron-builder",
 		"start": "electron ."
-  	},
+	},
 	"build": {
 		"appId": "group9.smartrover",
 		"mac": {
 			"category": "com.group9.smartrover.app"
+		},
+		"directories": {
+			"buildResources": "resources"
 		}
 	},
 	"devDependencies": {
-		"eslint": "^7.24.0",
-		"mocha": "^8.3.2",
 		"chai": "^4.3.4",
 		"chai-as-promised": "^7.1.1",
-		"spectron": "^14.0.0"
-  	},
+		"eslint": "^7.24.0",
+		"puppeteer": "^9.0.0"
+	},
 	"dependencies": {
-		"electron": "^12.0.6",
 		"@fortawesome/fontawesome-free": "^5.15.3",
+		"electron": "^12.0.6",
 		"electron-chromedriver": "^12.0.0",
-		"mqtt": "^4.2.6"
+		"mocha": "^8.3.2",
+		"mqtt": "^4.2.6",
+		"spectron": "^14.0.0"
 	}
 }
