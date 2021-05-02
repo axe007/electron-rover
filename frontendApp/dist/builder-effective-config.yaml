@@ -1,0 +1,14 @@
+directories:
+  output: dist
+  buildResources: resources
+appId: group9.smartrover
+productName: SmartRover
+mac:
+  category: public.app-category.lifestyle
+dmg:
+  icon: icon.png
+linux:
+  target:
+    - AppImage
+  category: Office
+electronVersion: 12.0.6

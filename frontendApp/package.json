@@ -12,30 +12,43 @@
 		"lint": "eslint .",
 		"pack": "electron-builder --dir",
 		"dist": "electron-builder",
+		"postinstall": "electron-builder install-app-deps",
+		"build": "electron-builder --mac --windows --linux",
+		"release": "electron-builder --mac --windows --linux --publish always",
 		"start": "electron ."
 	},
 	"build": {
 		"appId": "group9.smartrover",
+		"productName": "SmartRover",
 		"mac": {
-			"category": "com.group9.smartrover.app"
+			"category": "public.app-category.lifestyle"
+		},
+		"dmg": {
+			"icon": "icon.png"
+		},
+		"linux": {
+			"target": [
+				"AppImage"
+			],
+			"category": "Office"
 		},
 		"directories": {
 			"buildResources": "resources"
 		}
 	},
 	"devDependencies": {
+		"electron": "^12.0.6",
 		"chai": "^4.3.4",
 		"chai-as-promised": "^7.1.1",
 		"electron-builder": "^22.10.5",
 		"eslint": "^7.24.0",
-		"puppeteer": "^9.0.0"
+		"mocha": "^8.3.2",
+		"puppeteer": "^9.0.0",
+		"spectron": "^14.0.0"
 	},
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5.15.3",
-		"electron": "^12.0.6",
 		"electron-chromedriver": "^12.0.0",
-		"mocha": "^8.3.2",
-		"mqtt": "^4.2.6",
-		"spectron": "^14.0.0"
+		"mqtt": "^4.2.6"
 	}
 }
