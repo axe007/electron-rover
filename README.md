@@ -33,8 +33,9 @@ The system is developed such that it can perform the following tasks:
 - Save and load user missions
 
 ## Installation
-
-Provide step by step series of examples and explanations about how to get a development env running.
+Detailed installation instructions are provided on the wiki page.
+* [MacOS user build guide](https://github.com/DIT112-V21/group-09/wiki/MacOS-user-build-guide)
+* [Windows user build guide](https://github.com/DIT112-V21/group-09/wiki/Windows-user-build-guide)
 
 ## Testing
 
@@ -48,11 +49,19 @@ To run the website for testing purposes, run:
 
 ## How to use
 
-* Launch the app
-* [Manual control](https://github.com/DIT112-V21/group-09/wiki/Manual-control-of-the-Rover)
-* [Mission control](#)
+#### Launch the app
+Please refer to Installation manuals above to install the system. Once installed, you can launch the SmartRover app by clicking SmartRover app icon.
+    
+#### Manual control
+Manual control page allows the user to precisely control the Rover in real time by using control pad buttons and terminal console commands. Once you connect to the Mars Orbiter satellite feed, the app will show you live camera streams from the rover and detailed telemetry data as soon as it is available. 
 
-## Dependencies
+Please visit [Manual control wiki page](https://github.com/DIT112-V21/group-09/wiki/Manual-control-of-the-Rover) for more detailed information.
+
+[Mission control](#)
+
+More updates coming soon ...
+
+### Dependencies
 
 - [Arduino IDE](https://www.arduino.cc/en/software)
 - [SMCE-gd](https://github.com/ItJustWorksTM/smce-gd)
