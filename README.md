@@ -18,12 +18,15 @@ Autonomous SmartRover that is designed to explore foreign planets, terrain and i
 <p align="center"><img src="https://github.com/DIT112-V21/group-09/blob/master/frontendApp/assets/images/home-rover-model.png?raw=true" alt="rover-logo.png" width="600" height="369"></p>
 In this repository you can find all the neccessary information to setup and use SmartRover system. By fully 
 utilizing SmartCar shield software library capabilities, this system is designed to explore the idea of examining more
-territory in the foreign terrain and perform remote robotic vehicle control. 
+territory in the foreign terrain and perform remote robotic vehicle control. <br /><br />
+
+Furthermore, you have access to all source codes and files that we put our effort to build this project. If you find any bugs, mistakes, foolishness, typos or have useful suggestions, please contact us (how? ... let's see about that) as we appreciate your interest in our project.
 
 ## Features
 
 The system is developed such that it can perform the following tasks: 
 
+- Load custom Martian terrain mod for improved realism
 - Connect to the SmartRover and manually drive
 - Send console commands to drive the rover
 - Connect and receive live camera stream
@@ -39,7 +42,8 @@ Detailed installation instructions are provided on the wiki page.
 
 ## Testing
 
-To run the tests for this project, run:
+To build, run or test the source package for the SmartRover frontend app, you need to install NodeJS package manager first. Please refer to [GET NPM](https://www.npmjs.com/get-npm) page to download and install npm. <br /><br />
+To build before the tests for this project, lanuch Command prompt or terminal and navigate to ElectronJS root folder. And run:
 
     $ npm ci
 
@@ -49,15 +53,15 @@ To run the website for testing purposes, run:
 
 ## How to use
 
-#### Launch the app
+### Launch the app
 Please refer to Installation manuals above to install the system. Once installed, you can launch the SmartRover app by clicking SmartRover app icon.
     
-#### Manual control
+### Manual control
 Manual control page allows the user to precisely control the Rover in real time by using control pad buttons and terminal console commands. Once you connect to the Mars Orbiter satellite feed, the app will show you live camera streams from the rover and detailed telemetry data as soon as it is available. 
 
 Please visit [Manual control wiki page](https://github.com/DIT112-V21/group-09/wiki/Manual-control-of-the-Rover) for more detailed information.
 
-[Mission control](#)
+### Mission control
 
 More updates coming soon ...
 
