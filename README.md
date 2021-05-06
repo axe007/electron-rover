@@ -3,10 +3,7 @@
 ![Electron CI](https://github.com/DIT112-V21/group-09/actions/workflows/electron-ci.yml/badge.svg)
 ![Arduino Build](https://github.com/DIT112-V21/group-09/actions/workflows/arduino-build.yml/badge.svg)
 
-
-
-
-Autonomous SmartRover that is designed to explore foreign planets, terrain and its environment
+Autonomous SmartRover that is designed to explore foreign planets, terrain and its environment.
 
 - [Description](#description)
 - [Features](#features)
@@ -45,14 +42,16 @@ To run the website for testing purposes, run:
 
 ## How to use
 
-If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
+* Launch the app
+* [Manual control](https://github.com/DIT112-V21/group-09/wiki/Manual-control-of-the-Rover)
+* [Mission control](#)
 
 ## Dependencies
 
 - [Arduino IDE](https://www.arduino.cc/en/software)
 - [SMCE-gd](https://github.com/ItJustWorksTM/smce-gd)
-- [Elecrton.js](https://www.electronjs.org/)
-
+- [Electron.js](https://www.electronjs.org/)
+- [Godot engine](https://godotengine.org/)
 
 ## Development team:
 - [Alexander Nikolic](https://github.com/nikalc)
