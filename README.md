@@ -7,26 +7,29 @@ Autonomous SmartRover that is designed to explore foreign planets, terrain and i
 
 - [Description](#description)
 - [Features](#features)
+- [Installation](#installation)
 - [Dependencies](#dependencies)
-- [Setup](/DIT112-V21/group-09/wiki/Setup-Guides)
 - [License](#license)
 
 ## Description
 
-In this repository you can find all the neccessary information to setup and use SmartRover system. By Fully 
-utilizing SmartCar software library capabilities, this system is designed to explore the idea of examining more
+In this repository you can find all the neccessary information to setup and use SmartRover system. By fully 
+utilizing SmartCar shield software library capabilities, this system is designed to explore the idea of examining more
 territory in the foreign terrain and perform remote robotic vehicle control. 
-
 
 ## Features
 
-The system is developed such that it can perfrom the following tasks: 
- 
-- Autonomous driving with obstacle avoidance logic built-in
-- Drive and steer manually 
-- Execute predefined missions tasks 
+The system is developed such that it can perform the following tasks: 
 
-## Installation
+- Connect to the SmartRover and manually drive
+- Send console commands to drive the rover
+- Connect and receive live camera stream
+- Autonomous driving with obstacle avoidance logic built-in
+- Build and execute missions by defining each step parameters
+- Create user account and login with unique profile
+- Save and load user missions
+
+## [Installation](#installation)
 
 Provide step by step series of examples and explanations about how to get a development env running.
 
