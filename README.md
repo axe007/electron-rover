@@ -8,7 +8,10 @@ Autonomous SmartRover that is designed to explore foreign planets, terrain and i
 - [Description](#description)
 - [Features](#features)
 - [Installation](#installation)
+- [Testing](#testing)
+- [How to use](#how-to-use)
 - [Dependencies](#dependencies)
+- [Development team](#development-team)
 - [License](#license)
 
 ## Description
@@ -29,7 +32,7 @@ The system is developed such that it can perform the following tasks:
 - Create user account and login with unique profile
 - Save and load user missions
 
-## [Installation](#installation)
+## Installation
 
 Provide step by step series of examples and explanations about how to get a development env running.
 
