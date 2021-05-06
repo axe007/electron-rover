@@ -5,7 +5,7 @@
 
 Autonomous SmartRover that is designed to explore foreign planets, terrain and its environment.
 
-- [Description](#description)
+- [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
 - [Testing](#testing)
@@ -14,8 +14,8 @@ Autonomous SmartRover that is designed to explore foreign planets, terrain and i
 - [Development team](#development-team)
 - [License](#license)
 
-## Description
-
+## Introduction
+<p align="center"><img src="https://github.com/DIT112-V21/group-09/blob/master/frontendApp/assets/images/home-rover-model.png?raw=true" alt="rover-logo.png" width="600" height="369"></p>
 In this repository you can find all the neccessary information to setup and use SmartRover system. By fully 
 utilizing SmartCar shield software library capabilities, this system is designed to explore the idea of examining more
 territory in the foreign terrain and perform remote robotic vehicle control. 
