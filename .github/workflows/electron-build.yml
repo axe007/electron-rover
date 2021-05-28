@@ -27,3 +27,5 @@ jobs:
           npm install -g yarn
       - run: yarn add electron-builder --dev
       - run: yarn dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
