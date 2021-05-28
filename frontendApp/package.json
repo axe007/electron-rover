@@ -31,9 +31,6 @@
 				"AppImage"
 			],
 			"category": "Office"
-		},
-		"directories": {
-			"buildResources": "resources"
 		}
 	},
 	"devDependencies": {
