@@ -74,7 +74,6 @@ More updates coming soon ...
 - [Godot engine](https://godotengine.org/)
 
 ## Development team:
-- [Alexander Nikolic](https://github.com/nikalc)
 - [Altansukh Tumenjargal](https://github.com/axe007)
 - [Anwar Ramadi](https://github.com/ramadi-a)
 - [Kamila Yosofi](https://github.com/kam56)
